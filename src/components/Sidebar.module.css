@@ -1,0 +1,28 @@
+.container {
+    align-items: center;
+    background: var(--gray-800);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.sidebarCover {
+    height: 72px;
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+}
+
+.profileImage {
+    border: 2px solid var(--green-500);
+    border-radius: 1rem;
+    box-shadow: 1px 1px 2px var(--green-500);
+    height: 80px;
+    position: absolute;
+    top: 20;
+    z-index: 2;
+    
+}
